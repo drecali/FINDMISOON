@@ -1,1 +1,6 @@
 # FINDMISOON
+This was made quickly to help someone using the information from this facebook post: https://www.facebook.com/groups/everyexpatinkorea/?post_id=10157280637516696
+
+__Disclaimer:__ This was made very quickly just to put something up online ASAP. I encourage anyone to take this rudimentary start and improve it. Since it was made in a hurry, it's very basic and uses only HTML and a tiny bit of in-line CSS. It's not pretty, but my goal was to get something up as soon as possible to help someone in need. Please don't hesitate to improve on it and even host it on your own server or domain. I'm just trying to help but I'm pressed for time. If I made some mistakes, please let me know.
+
+I'm hosting this page on my server because it was the quickest and cheapest option. I'm not claiming any of the content, so feel free to host it elsewhere to help the message spread. Here is the link: www.drecali.com/FINDMISOON. I also used my URL shortener (www.drecali.link/FINDMISOON) to make a link that can be used for a QR code. In case the page is hosted at another URL, this `.link` URL can be redirected to the new URL. If making any QR codes, please use the `.link` URL or some other URL redirect service that permits you to change the link destination after the fact.
