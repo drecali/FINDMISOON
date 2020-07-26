@@ -4,12 +4,20 @@
     font-family: 'Do Hyeon', sans-serif;
     
 }
+li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style-type: none; 
+}
+
 /* header */
+
 .wrapper {
     width: 1100px;
     margin: 0 auto;
 }
-
 header {
     color: #fff;
     background-color: #000;
@@ -43,9 +51,7 @@ header ul li:hover {
 }
 
 /* main  */
-li{
-    list-style-type: none; 
-}
+
 .main-text {
     text-align: center;
     padding-top: 20px;
@@ -73,6 +79,7 @@ li{
 }
 .info-text {
     padding-left: 120px;
+    margin-bottom: 50px;
 }
 .img-wrapper{
     border: 1px solid black;
@@ -87,13 +94,21 @@ li{
 }
 #dna-test {
     text-align: center;
-    margin: 100px 0;
+    margin: 80px 0 100px;
+}
+#dna-test h3 {
+    padding-top: 0;
 }
 #dna-test button {
     color: red;
     padding: 10px;
     font-size: 1rem;
     margin-right: 20px;
+    margin-top: 10px;
+}
+#dna-test button:hover {
+    background-color: gray;
+    color: #fff;
 }
 .contacts {
     display: flex;
@@ -101,24 +116,34 @@ li{
     padding: 100px 50px;
 }
 .middle{
-    /* width: 300px;
-    height: 300px; */
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
 }
-/* .middle h3{
-    padding: 10px;
-} */
+.middle h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.middle ul {
+    text-align: center;
+    
+}
+#video h3{
+    padding: 40px 0;
+}
 .videos ul{
     display: flex;
     flex-wrap : wrap;
     justify-content: space-evenly;
+    margin-bottom:0;
 }
 .videos ul li {
     background-color: #fff;
     margin-bottom: 50px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #fff;
 }
 .videos p {
     text-align: center;
