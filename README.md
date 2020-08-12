@@ -1,6 +1,13 @@
 # FINDMISOON
-This was made quickly to help someone using the information from this facebook post: https://www.facebook.com/groups/everyexpatinkorea/?post_id=10157280637516696
 
-__Disclaimer:__ This was made very quickly just to put something up online ASAP. I encourage anyone to take this rudimentary start and improve it. Since it was made in a hurry, it's very basic and uses only HTML and a tiny bit of in-line CSS. It's not pretty, but my goal was to get something up as soon as possible to help someone in need. Please don't hesitate to improve on it and even host it on your own server or domain. I'm just trying to help but I'm pressed for time. If I made some mistakes, please let me know.
+See it live at <https://find-misoon.web.app/> or the URL redirect at <http://www.drecali.link/FINDMISOON>. If making any QR codes, please use the `.link` URL or some other URL redirect service that permits you to change the link destination. The `.link` domain will be updated to always redirect to the correct version.
 
-I'm hosting this page on my server because it was the quickest and cheapest option. I'm not claiming any of the content, so feel free to host it elsewhere to help the message spread. Here is the link: www.drecali.com/FINDMISOON. I also used my URL shortener (www.drecali.link/FINDMISOON) to make a link that can be used for a QR code. In case the page is hosted at another URL, this `.link` URL can be redirected to the new URL. If making any QR codes, please use the `.link` URL or some other URL redirect service that permits you to change the link destination after the fact.
+## Background
+
+All the styling is thanks to [Min](https://github.com/minkyngkm). She did a great job with the rough skeleton of a website that I made from a [Facebook post](https://www.facebook.com/groups/everyexpatinkorea/?post_id=10157280637516696). Many thanks to [Ben](https://github.com/Goblinlordx) for setting up Firebase CI and being an awesome technical advisor.
+
+## Disclaimer
+
+Initially this was made very quickly just to put something up online ASAP. then others helped greatly improved it. We still encourage others to contribute. If you'd like to donate to help, please go to the [website](https://find-misoon.web.app/) and get in touch by phone or email.
+
+I'm not claiming any of the content, so feel free to host it elsewhere to help the message spread.
