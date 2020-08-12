@@ -4,6 +4,10 @@
     font-family: 'Do Hyeon', sans-serif;
     
 }
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
 li a:hover {
     text-decoration: none;
     color: #000;
@@ -14,35 +18,33 @@ li{
 
 /* header */
 
-.wrapper {
-    width: 1100px;
-    margin: 0 auto;
-}
 header {
+    width: 100%;
     color: #fff;
     background-color: #000;
     font-family: 'Do Hyeon', sans-serif;
     text-align: center;
 }
 header h1 { 
-    padding-top : 20px;
+    padding-top : 40px;
     margin: 0;
-    font-size: 3rem;
+    font-size: 48px;
 }
 header ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 32px;
+    padding-bottom: 16px;
 }
 header ul li {
     list-style-type: none;
     background-color: #fff;
-    margin-right: 10px;
+    margin-right: 25px;
     color: #000; 
     padding: 5px 10px;
     border-radius: 5px;
+    font-size: 1rem;
 }
 header ul li:hover {
     cursor: pointer;
@@ -51,12 +53,17 @@ header ul li:hover {
 }
 
 /* main  */
-
+main {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
 .main-text {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 1rem;
+    font-size: 16px;
     background-color: black;
     color: #fff;
 }
@@ -65,6 +72,7 @@ header ul li:hover {
 }
 .title {
     padding: 30px 0;
+    font-size: 16px;
 }
 
 .info-img{
@@ -78,8 +86,13 @@ header ul li:hover {
     margin-bottom: 10px;
 }
 .info-text {
-    padding-left: 120px;
     margin-bottom: 50px;
+    padding-left: 12rem;
+    padding-right: 10rem;
+}
+.info-text p {
+    font-size: 16px;
+    word-wrap: normal;
 }
 .img-wrapper{
     border: 1px solid black;
@@ -91,13 +104,19 @@ header ul li:hover {
 }
 .img-wrapper p {
     margin:0;
+    font-size: 16px;
 }
 #dna-test {
     text-align: center;
-    margin: 80px 0 100px;
+    margin: 100px 100px;
 }
 #dna-test h3 {
     padding-top: 0;
+    font-size: 30px;
+}
+#dna-test p{
+    font-size: 16px;
+    margin: 20px;
 }
 #dna-test button {
     color: red;
@@ -105,6 +124,7 @@ header ul li:hover {
     font-size: 1rem;
     margin-right: 20px;
     margin-top: 10px;
+    font-size: 16px;
 }
 #dna-test button:hover {
     background-color: gray;
@@ -112,7 +132,8 @@ header ul li:hover {
 }
 .contacts {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 100px 50px;
 }
 .middle{
@@ -121,13 +142,16 @@ header ul li:hover {
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
+    margin: 20px;
 }
 .middle h3 {
     text-align: center;
     padding-bottom: 10px;
+    font-size: 25px;
 }
 .middle ul {
     text-align: center;
+    font-size: 16px;
     
 }
 #video h3{
@@ -144,6 +168,7 @@ header ul li:hover {
     margin-bottom: 50px;
     border-radius: 0 0 10px 10px;
     border: 2px solid #fff;
+    font-size: 16px;
 }
 .videos p {
     text-align: center;
@@ -154,3 +179,52 @@ header ul li:hover {
     background-color: #000;
     color: #fff
 }
+#video h3{
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+/* media query */
+
+@media ( max-width: 1280px ) {
+	html{
+        font-size: 100%
+    }
+} 
+/* 화면너비가 0 - 1024px : 데스크탑 */ 
+@media ( max-width: 1024px ) {
+	html{
+        font-size: 80%
+    }
+
+} 
+/* 화면너비가 0 - 960px : 노트북 */ 
+@media (max-width: 960px ) {
+	html{
+        font-size: 70%
+    }
+    .info-img{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+/* 화면너비가 0 - 768px : 태블릿 */ 
+@media (max-width: 768px ) {
+	html{
+        font-size: 60%
+    }
+} 
+/* 화면너비가 0 - 576px : 모바일 */ 
+@media (max-width: 576px ) {
+	html{
+        font-size: 50%
+    }
+    header h1 { 
+        font-size: 32px;
+    }
+    .main-text {
+        font-size: 13px;
+    }
+} 
