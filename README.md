@@ -10,4 +10,4 @@ All the styling is thanks to [Min](https://github.com/minkyngkm). She did a grea
 
 Initially this was made very quickly just to put something up online ASAP. then others helped greatly improved it. We still encourage others to contribute. If you'd like to donate to help, please go to the [website](https://find-misoon.web.app/) and get in touch by phone or email.
 
-I'm not claiming any of the content, so feel free to host it elsewhere to help the message spread.
+I'm not claiming any of the content, so feel free to host it elsewhere to help the message spread
